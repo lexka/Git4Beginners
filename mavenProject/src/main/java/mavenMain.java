@@ -3,17 +3,17 @@
  */
 
 /**
- * @author lexka
+ * @author Lexka
  *
  */
-public class BonjourLeMonde {
+public class mavenMain {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("First Test: Bonjourle monde!");
+		System.out.println("First Maven Test !!!");
 	}
 
 }
