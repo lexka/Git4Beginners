@@ -5,4 +5,21 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Calculatrice</name>
   <description>Some arithmetic operations</description>
+  <build>
+	  <plugins>
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-jar-plugin</artifactId>
+	            <version>2.4</version>
+	            <configuration>
+	                <archive>
+	                    <index>true</index>
+	                    <manifest>
+	                        <mainClass>MainPackage</mainClass>
+	                    </manifest>
+	                </archive>
+	            </configuration>
+	        </plugin>
+	   </plugins>
+   </build>
 </project>

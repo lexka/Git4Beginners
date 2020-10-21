@@ -6,7 +6,7 @@
  * @author lexka
  *
  */
-package your.pack.yourprogram;
+package MainPackage;
 public class Calculo {
 	
 	static double addition(double numA, double numB)
